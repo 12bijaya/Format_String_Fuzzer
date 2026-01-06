@@ -4,15 +4,17 @@
 ```bash
 pip install pwntools
 python3 exploit.py
-
+```
 # Usecase
 ## Change './chall' to your binary name
+```
 context.binary = binary = ELF('./chall')
-
+```
 # Update these to match your program's prompts
+```
 p.recvuntil(b'Enter your input here:')
 p.recvuntil(b'You inputed:')
-
+```
 
 #Example output
 ```
