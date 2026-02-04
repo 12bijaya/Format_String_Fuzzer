@@ -1,0 +1,22 @@
+# Interactive Binary Vulnerability Scanner - Requirements
+# Python 3.6+ required
+
+# Core dependency for binary exploitation and fuzzing
+pwntools>=4.7.0
+
+# Pwntools automatically includes these dependencies:
+# - pyelftools (ELF file parsing)
+# - capstone (disassembly)
+# - paramiko (SSH support)
+# - mako (template engine)
+# - pyserial (serial communication)
+# - requests (HTTP support)
+# - pygments (syntax highlighting)
+# - pysocks (SOCKS proxy support)
+# - python-dateutil (date parsing)
+# - packaging (version parsing)
+# - psutil (process utilities)
+# - intervaltree (interval management)
+# - sortedcontainers (sorted data structures)
+# - unicorn (CPU emulator)
+# - rpyc (remote procedure calls)
